@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopify Flexbox</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"
+      integrity="sha256-HkXXtFRaflZ7gjmpjGQBENGnq8NIno4SDNq/3DbkMgo="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <nav id="navigation"></nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="d-flex" id="hero">
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-sm-12 col-md-7 col-lg-7 p-10x">
+            <h1>Build an online business—no matter what business you’re in</h1>
+            <form action="email" method="GET">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email address"
+              />
+              <input type="button" value="Start free Trial" class="btn-1" />
+            </form>
+            <h6>
+              Try Shopify free for 14 days, no credit card required. By entering
+              your email, you agree to receive marketing emails from Shopify.
+            </h6>
+          </div>
+          <div class="col-sm-12 col-md-5 col-lg-5">
+            <img
+              class="images"
+              src="./assets/img/hero.jpg"
+              alt="hero-image"
+              height="590"
+              width="533"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="two">
+      <div class="container">
+        <div class="row row-1">
+          <h2>Bring your business online</h2>
+          <p class="p-32px">
+            Create an ecommerce website backed by powerful tools that help you
+            find customers, drive sales, and manage your day-to-day.
+          </p>
+          <div
+            class="col-lg-12 d-flex flow-direction-row justify-content-space-between flex-wrap p-60px"
+          >
+            <div class="row-1">
+              <img
+                src="./assets/img/5home/A.jpg"
+                alt="A"
+                height="347"
+                width="196"
+              />
+              <h5>FOOD & DRINK</h5>
+              <p>Alfred</p>
+            </div>
+            <div class="row-1">
+              <img
+                src="./assets/img/5home/B.jpg"
+                alt="B"
+                height="347"
+                width="196"
+              />
+              <h5>JEWELRY</h5>
+              <p>Corey Moranis</p>
+            </div>
+            <div class="row-1">
+              <img
+                src="./assets/img/5home/C.jpg"
+                alt="C"
+                height="347"
+                width="196"
+              />
+              <h5>FOOD & DRINK</h5>
+              <p>Detour Coffee</p>
+            </div>
+            <div class="row-1">
+              <img
+                src="./assets/img/5home/D.jpg"
+                alt="D"
+                height="347"
+                width="196"
+              />
+              <h5>BEAUTY & COSMETICS</h5>
+              <p>Then I Met You</p>
+            </div>
+            <div class="row-1">
+              <img
+                src="./assets/img/5home/E.jpg"
+                alt="E"
+                height="347"
+                width="196"
+              />
+              <h5>HOME & GARDEN</h5>
+              <p>Miss Boon</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="three">
+      <div class="container">
+        <div class="row row-1">
+          <h3>Take the best path forward</h3>
+        </div>
+        <div class="row d-flex justify-content-space-evenly p-60px">
+          <div class="col-sm-12 col-md-6 col-lg-3 p-32px">
+            <i class="fa fa-laptop"></i>
+            <h5>Start an online business</h5>
+            <p>
+              Create a business, whether you’ve got a fresh idea or are looking
+              for a new way to make money.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 p-32px">
+            <i class="fa fa-laptop"></i>
+            <h5>Move your business online</h5>
+            <p>
+              Turn your retail store into an online store and keep serving
+              customers without missing a beat.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 p-32px">
+            <i class="fa fa-laptop"></i>
+            <h5>Switch to Shopify</h5>
+            <p>
+              Bring your business to Shopify, no matter which ecommerce platform
+              you’re currently using.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 p-32px">
+            <i class="fa fa-laptop"></i>
+            <h5>Hire a Shopify expert</h5>
+            <p>
+              Get setup with the help of a trusted freelancer or agency from the
+              Shopify Experts Marketplace.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="four">
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+          <h2>With you wherever you’re going</h2>
+          <p>
+            One platform with all the ecommerce and point of sale features you
+            need to start, run, and grow your business.
+          </p>
+          <div class="col-md-12 col-lg-5">
+            <video class="images" controls>
+              <source src="./assets/img/video.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="col-md-12 col-lg-7 p-50px">
+            <h2>Sell everywhere</h2>
+            <p>
+              Use one platform to sell products to anyone, anywhere—in person
+              with Point of Sale and online through your website, social media,
+              and online marketplaces.
+            </p>
+            <h5>Explore ways to sell</h5>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-md-12 col-lg-5" id="mkt-2">
+            <h3>Market your business</h3>
+            <p>
+              Take the guesswork out of marketing with built-in tools that help
+              you create, execute, and analyze digital marketing campaigns.
+            </p>
+            <h5>Explore how to market your business</h5>
+          </div>
+          <div class="col-md-12 col-lg-7" id="mkt-1">
+            <img class="images" src="./assets/img/market.jpg" alt="market" />
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-md-12 col-lg-7">
+            <img class="images" src="./assets/img/manage.PNG" alt="manage" />
+          </div>
+          <div class="col-md-12 col-lg-5">
+            <h3>Manage everything</h3>
+            <p>
+              Gain the insights you need to grow—use a single dashboard to
+              manage orders, shipping, and payments anywhere you go.
+            </p>
+            <h5>Explore how to manage your business</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="five">
+      <div class="container">
+        <div
+          class="row d-flex flow-direction-column align-items-center justify-content-center"
+        >
+          <div class="col-md-12 col-lg-6">
+            <img
+              class="images"
+              src="./assets/img/cee-cees-closet-testimonial.jpg"
+              alt="testimonial"
+            />
+          </div>
+          <div class="col-md-12 col-lg-6">
+            <h4 class="p-32px">
+              “We’ve been able to build something in 3 years that a lot of
+              brands haven’t actually gotten to in 10 years.”
+            </h4>
+            <img
+              class="p-32px"
+              src="./assets/img/cee-cees-closet-logo.png"
+              alt="testimonial logo"
+              height="100"
+            />
+            <h5 class="p-32px">Chioma | Cee Cee’s Closet NYC</h5>
+            <button id="btn-2">
+              <i class="fa fa-play"></i> Play Chioma and Uchenna's story
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="six">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 logo d-flex align-items-center flex-wrap">
+            <img src="./assets/img/8logos/1.png" alt="ceecee" height="50" />
+            <img src="./assets/img/8logos/2.png" alt="nalata" height="50" />
+            <img src="./assets/img/8logos/3.png" alt="kirrin" height="50" />
+            <img src="./assets/img/8logos/4.png" alt="tokyobike" height="50" />
+            <img src="./assets/img/8logos/5.png" alt="meso" height="50" />
+            <img src="./assets/img/8logos/6.png" alt="coco" height="50" />
+            <img src="./assets/img/8logos/7.png" alt="brooklyn" height="50" />
+            <img src="./assets/img/8logos/8.png" alt="adore me" height="50" />
+          </div>
+        </div>
+        <div class="row row-in-six">
+          <div class="col-md-12 col-lg-6">
+            <h3>Get the help you need, every step of the way</h3>
+            <div class="row d-flex flex-wrap align-items-">
+              <div class="col-sm-12 col-lg-6 p-10x">
+                <h5>Shopify support</h5>
+                <p>
+                  Contact support 24/7, whether you’re troubleshooting issues or
+                  looking for business advice.
+                </p>
+                <h5>Contact support</h5>
+              </div>
+              <div class="col-sm-12 col-lg-6 p-10x">
+                <h5>Shopify App Store</h5>
+                <p>
+                  Add features and functionality to your business with 4,100+
+                  apps that integrate directly with Shopify.
+                </p>
+                <h5>Visit the Shopify App Store</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-lg-6 p-10x">
+                <h5>Shopify Experts Marketplace</h5>
+                <p>
+                  Hire a Shopify expert to help you with everything from store
+                  setup to SEO.
+                </p>
+                <h5>Explore the Shopify Experts Marketplace</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-6">
+            <img src="./assets/img/help.jpg" class="images" alt="help" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="seven">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-12">
+            <h3>Start your business journey with Shopify</h3>
+            <p class="p-32px">
+              Try Shopify for free, and explore all the tools and services you
+              need to start, run, and grow your business.
+            </p>
+            <input type="button" value="Start free Trial" class="btn-1" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-6"></div>
+          <div class="col-6"></div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
